@@ -1,0 +1,2 @@
+# Buhle-Damane-Portfolio
+ 🚀 Buhle Damane's Portfolio Repository 🚀  Explore a collection of projects showcasing skills in front-end development. Projects are built with HTML, CSS, JavaScript, React.js, and Vanilla.js, with seamless API integration. Bootstrap ensures responsive design, and SEO techniques are implemented.  🌟 Highlights: - HTML, CSS, JavaScript, React.js, Vanilla.js - Seamless API integration - Bootstrap for responsive design - SEO techniques  Feel free to clone the repository and explore the projects!  

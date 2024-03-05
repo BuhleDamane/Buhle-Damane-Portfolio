@@ -83,6 +83,9 @@
     font-size: 28px;
     text-decoration: none;
   }
+  .text-center1{
+    text-align: center;
+  }
   
   .email-link:hover {
     text-decoration: underline;
@@ -94,7 +97,7 @@
         margin-bottom: 50px;
     }
     .text-center1{
-        text-align: center;
+        margin: 0 auto;
         margin-bottom: 30px;
         margin-top: 10px;
         font-size: 40px;

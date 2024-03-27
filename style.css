@@ -409,12 +409,12 @@ p {
         padding: 0;
     }
     .text-center1{
-        font-size: 35px;
+        font-size: 30px;
         margin: 0;
         margin-right: -60px;
     }
     .text-center2{
-        font-size: 45px;
+        font-size: 40px;
         margin: 0;
         margin-right: -120px;
     }
@@ -424,14 +424,14 @@ p {
     }
     .text-center5{
         width: 100px;
-        height: 70px;
-        font-size: 13px;
+        height: 60px;
+        font-size: 10px;
         text-align: center;
     }
     .text-center6{
         width: 100px;
-        height: 70px;
-        font-size: 13px;
+        height: 60px;
+        font-size: 10px;
         text-align: center;
     }
     h5{

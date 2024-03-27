@@ -188,6 +188,15 @@ h5{
         font-family: "Poppins", sans-serif;
         font-weight: 400;
     }
+    .about{
+        position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bold;
+                font-style: normal;
+                font-size: 70px;
+    }
 
 .navigation-links {
     display: flex;
@@ -210,15 +219,7 @@ font-family: "Playfair Display", serif;
 a{
     text-decoration: none;
 }
-.about{
-    position: absolute;
-            top: 25%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-weight: bold;
-            font-style: normal;
-            font-size: 70px;
-}
+
 
 .about-me{
     margin-top: 300px;
@@ -268,13 +269,14 @@ p {
   }
   .contact1{
     font-size: 60px;
-    margin-top: 150px;
+    margin-top: 60px;
     margin-bottom: 70px;
     text-align: center;
   }
   .contact2{
     text-align: center;
     color: rgb(242, 140, 157);
+    font-size: 40px;
   }
 .work-heading{
     font-size: 70px;
@@ -378,6 +380,15 @@ p {
     color: rgb(0, 120, 255);
     text-decoration: underline;
 }
+.linkedin-para{
+    font-size: 25px;
+}
+.github-para{
+    font-size: 25px;
+}
+.email-para{
+    font-size: 25px;
+}
 @media(max-width: 576px){
     .intro{
         max-width: 100%;
@@ -455,4 +466,83 @@ p {
     .open-source {
         font-size: 13px;
     }
+    .about{
+        font-size: 40px;
+        margin-right: -60px;
+    }
+    .text-about1{
+        font-size: 25px;
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+    .text-about2{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .text-about3{
+        font-size: 13px;
+        margin-left: 50px;
+    }
+    .about-img{
+        overflow-x: hidden;
+        height: 65%;
+        width: 90%;
+        margin-top: -40px;
+        
+    }
+    .p-about-me{
+        text-align: center;
+    }
+    .my-work{
+        margin-left: 110px;
+        font-size: 13px;
+    }
+    .work-heading{
+        font-size: 50px;
+        margin-top: -30px;
+    }
+    .work{
+        font-size: 18px;
+    }
+    .contact1{
+        font-size: 20px;
+      margin-top: -10px;
+    }
+    .contact2{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .linkedin-img{
+        height: 55px;
+        width: 55px;
+        margin-top: -30px;
+    }
+    .linkedin-para{
+        font-size: 12px;
+    }
+    .linkedin-img{
+        height: 55px;
+        width: 55px;
+        margin-top: -30px;
+    }
+    .linkedin-para{
+        font-size: 12px;
+    }
+    .github-img{
+        height: 55px;
+        width: 55px;
+        margin-top: -30px;
+    }
+    .github-para{
+        font-size: 12px;
+    }
+    .email-img{
+        height: 55px;
+        width: 55px;
+        margin-top: -30px;
+    }
+    .email-para{
+        font-size: 12px;
+    }
 }
+

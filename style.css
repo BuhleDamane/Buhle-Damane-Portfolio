@@ -409,12 +409,14 @@ p {
         padding: 0;
     }
     .text-center1{
-        font-size: 130%;
+        font-size: 35px;
         margin: 0;
+        margin-right: -60px;
     }
     .text-center2{
-        font-size: 190%;
+        font-size: 45px;
         margin: 0;
+        margin-right: -120px;
     }
     .text-center3{
         font-size: 90%;
@@ -422,13 +424,13 @@ p {
     }
     .text-center5{
         width: 100px;
-        height: 60px;
+        height: 70px;
         font-size: 13px;
         text-align: center;
     }
     .text-center6{
         width: 100px;
-        height: 60px;
+        height: 70px;
         font-size: 13px;
         text-align: center;
     }

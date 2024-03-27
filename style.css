@@ -197,7 +197,214 @@ h5{
                 font-style: normal;
                 font-size: 70px;
     }
-
+    .about-me-content{
+        padding: 30px 0;
+        margin-top: -45px;
+    }
+    .text-about1{
+        margin-left: 150px;
+        font-size: 33px;
+        font-family: "Playfair Display", serif;
+    }
+    .text-about2{
+        font-size: 43px;
+        margin-left: 120px;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 10px;
+    }
+    .text-about3{
+        font-size: 28px;
+        margin-left: 70px;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 15px;
+    }
+    .about-me{
+        margin-top: 300px;
+    }
+    .about-img{
+        width: 550px;
+        height: 700px;
+        margin-left: 30px;
+    }
+    .my-work{
+        margin-left: 270px;
+        padding: 25px 50px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--primary-color);
+        background-color: rgb(242, 140, 157);
+        border: 1px solid var(--primary-color);
+      }
+      .work-heading{
+        font-size: 80px;
+        text-align: center;
+        margin-top: 60px;
+        padding: 15px;
+    }
+    .work{
+        font-size: 30px;
+        margin-bottom: 60px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+.tech-btn{
+    padding: 25px 60px;
+    background-color: rgb(0, 120, 255);
+    color: white;
+    margin-top: -50px;
+    margin-right: 350px;
+}
+    .law-img{
+        width: 400px;
+        height: 300px;
+    }
+    .law-btn{
+        padding: 25px 60px;
+        background-color: rgb(101, 67, 33);
+        color: white;
+        
+    }
+    .tech{
+        font-size: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .v-projects{
+        font-size: 45px;
+       text-align: center;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: rgb(0, 120, 255);
+        text-decoration: underline;
+    }
+    .iced-tea{
+        font-size: 45px;
+        
+    }
+    .weather-app{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+    .weather-img{
+        margin-top: 50px;
+    }
+    .tech-heading{
+        font-size: 50px;
+        
+    }
+    .law-heading{
+        font-size: 50px;
+    }
+    .my-projects{
+        margin-bottom: 100px;
+    }
+    .tech-img{
+        width: 400px;
+        height: 300px;
+       
+    }
+    .cert{
+        font-size: 50px;
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: rgb(0, 120, 255);
+        text-decoration: underline;
+    }
+    .intro-heading{
+        font-size: 40px;
+    }
+    .intro-cert{
+        margin-bottom: 90px;
+    }
+    .intro-btn{
+        margin-bottom: 90px;
+    }
+    .web-intro{
+        font-size: 40px;
+    }
+    .web-btn{
+        margin-bottom: 90px;
+    }
+    .web-cert{
+        margin-bottom: 90px;
+    }
+    .resp-intro{
+        font-size: 40px;
+    }
+    .resp-btn{
+        margin-bottom: 200px;
+    }
+    .container-footer{
+        margin-top: 200px;
+    }
+    
+    .contact1{
+        font-size: 60px;
+        margin-top: 60px;
+        margin-bottom: 70px;
+        text-align: center;
+      }
+      .contact2{
+        text-align: center;
+        color: rgb(242, 140, 157);
+        font-size: 40px;
+      }
+    .contact-links{
+        margin-bottom: 150px;
+        position: relative;
+        margin: 60px;
+        padding: 30px 40px;
+        font-size: 30px;
+        text-decoration: none;
+        transition: all 150ms ease-in-out;
+    }
+    .linkedin{
+        margin-left: 40%;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+    
+    }
+    .linkedin-img{
+        width: 150px;
+    }
+    .linkedin-para{
+        font-size: 25px;
+    }
+    .github{
+        margin-left: 40%;
+        margin-top: 70px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+    }
+    .github-img{
+        width: 150px;
+        
+    }
+    .github-para{
+        font-size: 25px;
+    }
+    .email{
+        margin-left: 40%;
+        margin-top: 70px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+       
+    }
+    .email-img{
+        width: 150px;
+    }
+    .email-para{
+        font-size: 25px;
+    }
+   
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -219,37 +426,6 @@ font-family: "Playfair Display", serif;
 a{
     text-decoration: none;
 }
-
-
-.about-me{
-    margin-top: 300px;
-}
-.about-img{
-    width: 550px;
-    height: 700px;
-    margin-left: 30px;
-}
-.about-me-content{
-    padding: 30px 0;
-    margin-top: -45px;
-}
-.text-about1{
-    margin-left: 150px;
-    font-size: 33px;
-    font-family: "Playfair Display", serif;
-}
-.text-about2{
-    font-size: 43px;
-    margin-left: 120px;
-    font-family: "Playfair Display", serif;
-    margin-bottom: 10px;
-}
-.text-about3{
-    font-size: 28px;
-    margin-left: 70px;
-    font-family: "Playfair Display", serif;
-    margin-bottom: 15px;
-}
 p {
     font-size: 15px;
     line-height: 1.5;
@@ -257,138 +433,14 @@ p {
     font-weight: 500;
     font-style: normal;
   }
-  .my-work{
-    margin-left: 270px;
-    padding: 25px 50px;
-    font-family: "Playfair Display", serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: var(--primary-color);
-    background-color: rgb(242, 140, 157);
-    border: 1px solid var(--primary-color);
-  }
-  .contact1{
-    font-size: 60px;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    text-align: center;
-  }
-  .contact2{
-    text-align: center;
-    color: rgb(242, 140, 157);
-    font-size: 40px;
-  }
-.work-heading{
-    font-size: 70px;
-    text-align: center;
-    margin-top: 150px;
-    padding: 15px;
-}
-.work{
-    font-size: 30px;
-    margin-bottom: 40px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-.my-projects{
-    margin-bottom: 100px;
-}
-.law-img{
-    width: 400px;
-    height: 300px;
-}
-.tech-img{
-    width: 400px;
-    height: 300px;
-}
-.tech-btn{
-    padding: 25px 60px;
-    background-color: rgb(0, 120, 255);
-    color: white;
-}
-.law-btn{
-    padding: 25px 60px;
-    background-color: rgb(101, 67, 33);
-    color: white;
-    
-}
-.contact-links{
-    margin-bottom: 150px;
-    position: relative;
-    margin: 60px;
-    padding: 30px 40px;
-    font-size: 30px;
-    text-decoration: none;
-    transition: all 150ms ease-in-out;
-}
-.linkedin{
-    margin-left: 40%;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-
-}
-.github{
-    margin-left: 40%;
-    margin-top: 70px;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-}
-.email{
-    margin-left: 40%;
-    margin-top: 70px;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-   
-}
-.github-img{
-    width: 150px;
-    
-}
-.linkedin-img{
-    width: 150px;
-}
-.email-img{
-    width: 150px;
-}
 .h1{
     margin-top: 150px;
     font-size: 50px;
     text-align: center;
     font-family: "Playfair Display", serif;
-    font-weight: 600;
-    
-    
+    font-weight: 600;  
 }
-.v-projects{
-    font-size: 45px;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: rgb(0, 120, 255);
-    text-decoration: underline;
-}
-.cert{
-    font-size: 50px;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    font-weight: 600;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: rgb(0, 120, 255);
-    text-decoration: underline;
-}
-.linkedin-para{
-    font-size: 25px;
-}
-.github-para{
-    font-size: 25px;
-}
-.email-para{
-    font-size: 25px;
-}
+ 
 @media(max-width: 576px){
     .intro{
         max-width: 100%;
@@ -543,6 +595,15 @@ p {
     }
     .email-para{
         font-size: 12px;
+    }
+    .tech{
+        font-size: 25px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .v-projects{
+        font-size: 25px;
+        text-decoration-line: underline;
     }
 }
 

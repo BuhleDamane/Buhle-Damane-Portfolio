@@ -239,8 +239,8 @@ h5{
       .work-heading{
         font-size: 80px;
         text-align: center;
-        margin-top: 60px;
-        padding: 15px;
+        margin-top: 1000px;
+
     }
     .work{
         font-size: 30px;
@@ -455,6 +455,10 @@ p {
         font-size: 20px;
         
     }
+   
+.navbar1{
+    max-width: 80%;
+}
     .navbar-brand{
         max-width: 100%;
         font-size: 20px;
@@ -554,7 +558,8 @@ p {
         margin-top: -30px;
     }
     .work{
-        font-size: 18px;
+        font-size: 15px;
+        text-align: center;
     }
     .contact1{
         font-size: 20px;

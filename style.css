@@ -26,6 +26,7 @@ body{
     font-family: "Playfair Display", serif;
     font-size: 25px;
 }
+
 .navbar-brand{
     margin-left: -100px;
     margin-right: 60px;
@@ -48,7 +49,7 @@ body{
 .text-center1{
     font-size: 48px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(39, 33, 66);
@@ -58,7 +59,7 @@ body{
 .text-center2{
     font-size: 96px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(39, 33, 66);
@@ -67,12 +68,12 @@ body{
             
 }
 .text-center3{
-    font-size: 24px;
-    top: 50%;
+    font-size: 26px;
+    top: 45%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(39, 33, 66);
+    color: rgb(33, 29, 51);
     color: whte;
     font-weight: 900;
     line-height: 2;
@@ -282,7 +283,7 @@ h5{
     background-color: rgb(0, 120, 255);
     color: white;
     margin-top: -50px;
-    margin-right: 350px;
+    margin-right: 35px;
 }
     .law-img{
         width: 400px;
@@ -486,6 +487,9 @@ p {
 .navbar1{
     max-width: 100%;
 }
+.navbar11{
+    width: 100%;
+}
     .navbar-brand{
         max-width: 100%;
         font-size: 20px;
@@ -506,15 +510,21 @@ p {
         font-size: 30px;
         margin: 0;
         margin-right: -60px;
+        top: 30%;
     }
     .text-center2{
         font-size: 40px;
         margin: 0;
         margin-right: -120px;
+        top: 37%;
     }
     .text-center3{
         font-size: 90%;
         margin-right: -60px;
+        top: 45%;
+    }
+    .text-center4{
+        top: 55%;
     }
     .text-center5{
         width: 100px;
@@ -531,6 +541,13 @@ p {
     h5{
         font-size: 20px;
     }
+    .scroll-right {
+        font-size: 30px;
+      }
+      
+      .scroll-left {
+        font-size: 30px;
+      }
     .work-together{
         font-size: 15px;
     }

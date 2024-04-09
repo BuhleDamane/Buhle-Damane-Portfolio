@@ -221,6 +221,12 @@ body{
   }
   .fa-solid{
     color: rgb(227, 56, 85);
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .fa-solid:hover {
+    transform: scale(1.2);
+    color: #6c63ff;
   }
   .scroll-left {
     position: fixed;

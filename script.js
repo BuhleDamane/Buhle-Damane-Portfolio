@@ -14,11 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 let images = ['display1.jpg', 'display6.jpg']; 
-let techImages = ['iced tea.jpg', 'Weather App Screenshot.jpeg', 'Calculator Screenshot (2).jpeg', 'World Clock Screenshot.jpeg', 'Dictionary.jpeg', 'Job Application.jpeg']; // Images for the tech image
-let time1 = 3000; 
-let time2 = 2000; 
+let time1 = 3000;  
 let i1 = 0; 
-let i2 = 0; 
+
 
 function changeImg() {
     document.getElementById('display').src = images[i1];
@@ -31,20 +29,9 @@ function changeImg() {
     setTimeout(changeImg, time1);
 }
 
-function techImg() {
-    document.getElementById('technology').src = techImages[i2];
-
-    if (i2 < techImages.length - 1) {
-        i2++;
-    } else {
-        i2 = 0;
-    }
-    setTimeout(techImg, time2);
-}
 
 function init() {
     changeImg();
-    techImg();
 }
 
 window.onload = init;
